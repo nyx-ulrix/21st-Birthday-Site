@@ -36,7 +36,7 @@ html {
     padding: 40px;
     margin-top: 100px;
     transform: translate(-50%, -50%);
-    background: rgb(0, 0, 0);
+    background: linear-gradient(to bottom right, #000000 59%, #a003f5 100%);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
