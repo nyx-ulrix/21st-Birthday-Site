@@ -16,8 +16,9 @@ html {
   }
 
   button{
+    position: static;
     cursor: pointer;
-    background-color: transparent;
+    background:transparent;
     height: 100%;
     width: 100%;
     border: transparent;
@@ -27,6 +28,7 @@ html {
     font-size: 2rem;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
   }
+
   
   .login-box {
     position: absolute;
@@ -119,15 +121,7 @@ html {
     letter-spacing: 4px
   }
   
-  .login-box button :hover {
-    background: #a003f5;
-    color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #a003f5,
-                0 0 25px #a003f5,
-                0 0 50px #a003f5,
-                0 0 100px #a003f5;
-  }
+
   
   .login-box a span {
     position: absolute;
@@ -170,8 +164,8 @@ html {
       top: 100%;
     }
   }
-  
-  .login-box a span:nth-child(3) {
+
+  .login-box button:nth-child(3) {
     bottom: 0;
     right: -100%;
     width: 100%;
@@ -190,7 +184,7 @@ html {
     }
   }
   
-  .login-box a span:nth-child(4) {
+  .login-box button:nth-child(4) {
     bottom: -100%;
     left: 0;
     width: 2px;
