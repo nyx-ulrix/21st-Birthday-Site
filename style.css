@@ -5,7 +5,8 @@ html {
     margin:0;
     padding: 2%;
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(#141e30, #a003f5);
+    background: linear-gradient(to bottom right, #000000 59%, #a003f5 100%);
+    font-weight: bolder;
   }
   h1{
     color: white;
@@ -33,6 +34,7 @@ html {
     left: 50%;
     width: 400px;
     padding: 40px;
+    margin-top: 100px;
     transform: translate(-50%, -50%);
     background: rgb(0, 0, 0);
     box-sizing: border-box;
