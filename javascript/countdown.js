@@ -14,7 +14,7 @@ function updateCountdown() {
     document.getElementById("countdown").innerHTML = `
       <div>${days}D ${hours} : ${minutes} : ${seconds}</div>`;
   } else {
-    document.getElementById("countdown").innerHTML = "Countdown expired";
+    document.getElementById("countdown").innerHTML = "Party time?";
   }
 }
 
