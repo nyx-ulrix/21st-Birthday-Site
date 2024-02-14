@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+  }
+  body {
+    margin:0;
+    padding: 2%;
+    font-family: 'Source Code Pro', monospace;  
+    background: linear-gradient(to bottom right, #000000 59%, #a003f5 100%);
+    font-weight: bolder;
+    color: white;
+  }
+  h1{
+    color: white;
+  }
+  h2{
+    color: white;
+  }
+
+  button{
+    position: static;
+    cursor: pointer;
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    border: transparent;
+    padding: 5px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 2rem;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  }
+  .countdownTimer{
+    font-size: 2rem;
+    margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  }

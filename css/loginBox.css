@@ -1,37 +1,5 @@
-html {
-    height: 100%;
-  }
-  body {
-    margin:0;
-    padding: 2%;
-    font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(to bottom right, #000000 59%, #a003f5 100%);
-    font-weight: bolder;
-  }
-  h1{
-    color: white;
-  }
-  h2{
-    color: white;
-  }
-
-  button{
-    position: static;
-    cursor: pointer;
-    background:transparent;
-    height: 100%;
-    width: 100%;
-    border: transparent;
-    padding: 5px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2rem;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-  }
-
-  
-  .login-box {
-    position: absolute;
+.login-box {
+    position: fixed;
     top: 50%;
     left: 50%;
     width: 400px;
@@ -42,6 +10,7 @@ html {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
+    cursor:grab;
   }
   
   .login-box h2 {

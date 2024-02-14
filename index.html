@@ -2,24 +2,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICanSmokeNow</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>9+10 = my birthday</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loginBox.css">
+    <link rel="stylesheet" href="css/typewriter.css">
+    <link rel="stylesheet" href="css/bubbleCursor.css">
+
+
 </head>
 <body>
+    <div class="cursorCircle"></div>
     <center>
         <div>
-            <h1>Malcolm turns 21</h1>
-            <h1>(Technically on the 8th but I had work)</h1>
-            <h2>Date: 9th March 2024</h2>
-            <h2>Location: TBD</h2>
-            <h2>Time: 1800-2200</h2>
-            <h2>Please dont be on time will only be allowed in at 1800 to setup</h2>
-            <div class="countdown-timer">   
-                <!--countdown code here-->
+            <h1 class="typewriterAnim">Malcolm turns 21</h1>
+            <h2 class="typewriterAnim">Date: 9th March 2024</h2>
+            <h2 class="typewriterAnim">Location: <a href="https://g.co/kgs/E84Nom3"> cloud studio</a></h2>
+            <h2 class="typewriterAnim">Time: 1800-2200</h2>
+            <h2 class="typewriterAnim">Please dont be on time will only be</h2>
+            <h2 class="typewriterAnim">allowed in at 1800 to setup</h2>
+            <h2 class="typewriterAnim"></h2>
+        </div>
 
+        
+    </center>
+
+    <center>
+        <div class="countdownTimer">
+            <!--countdown code here-->
+            <div id="countdown">
             </div>
+            <script src="javascript/countdown.js"></script>   
         </div>
     </center>
+    
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
 
     <div class="login-box">
             <form action="https://formsubmit.co/malcolmliew98@gmail.com" method="POST">
@@ -44,6 +67,7 @@
             </form>
     </div>
 
+    <script src="javascript/bubbleCursor.js"></script>
 
 </body>
 </html>
