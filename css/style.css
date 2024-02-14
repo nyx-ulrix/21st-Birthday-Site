@@ -2,7 +2,6 @@ html {
     height: 100%;
   }
   body {
-    margin:0;
     padding: 2%;
     font-family: 'Source Code Pro', monospace;  
     background: linear-gradient(to bottom right, #000000 59%, #a003f5 100%);
